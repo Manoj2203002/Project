@@ -1,0 +1,33 @@
+    .mani{
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        color: white;
+        .nav{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            width: 100%;
+            h1{
+                margin: 1rem;
+                font-size: 2.5rem;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 200;
+            }
+            .list{
+                display: flex;
+                list-style: none;
+                margin-right: 10px;
+                align-items: center;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin-right: 1rem;
+                }
+            }
+        
+        }
+       
+    }
+    
